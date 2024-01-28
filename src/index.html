@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A simple login page" />
+		<!-- SCSS -->
+		<link rel="stylesheet" href="./scss/main.scss" />
+		<title>Login Page - UI</title>
+	</head>
+	<body>
+		<main>
+			<div class="login">
+				<div class="login__left">
+					<div class="login__logo-container">
+						<img
+							src="../images/logo.png"
+							alt="A picture of a circle with wavy horizontal lines inside"
+						/>
+						<p class="login__logo-text">Cogie</p>
+					</div>
+					<h2 class="login__heading-secondary">Welcome Back</h2>
+					<p class="login__text">
+						Enter your email and password to access your account
+					</p>
+					<ul class="login__socials">
+						<li class="login__social">
+							<img
+								src="../images/google-logo.png"
+								alt="Google logo which is just the letter G with red yellow green blue color"
+								class="login__social-logo"
+							/>
+							<p class="login__social-text">Google</p>
+						</li>
+						<li class="login__social">
+							<img
+								src="../images/facebook-logo.png"
+								alt="Google logo which is just the letter F colored in white and a blue background color"
+								class="login__social-logo"
+							/>
+							<p class="login__social-text">Facebook</p>
+						</li>
+					</ul>
+					<div class="login__other-container">
+						<div class="line"></div>
+						<span class="login__other">Or continue with email</span>
+						<div class="line"></div>
+					</div>
+					<form action="#" class="login__form">
+						<div class="email">
+							<label for="email">Email</label>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="Enter your email"
+							/>
+						</div>
+						<div class="password">
+							<label for="password">Password</label>
+							<input
+								type="password"
+								name="password"
+								id="password"
+								placeholder="Enter your password"
+							/>
+							<img src="../images/eye-icon.png" alt="Eye icon" />
+						</div>
+						<div class="login__form-bottom">
+							<div class="remember-me">
+								<input type="checkbox" name="remember" id="remember" />
+								<label for="remember">Remember me</label>
+							</div>
+							<a href="#">Forgot Password</a>
+						</div>
+						<button class="login__form-button" type="submit">Sign in</button>
+						<p class="login__form-sign-up">
+							Don't have an account? <a href="#">Sign Up</a>
+						</p>
+					</form>
+				</div>
+				<div class="login__right">
+					<h1 class="login__heading-primary">Elves Vanyar Pro Disc 2024</h1>
+					<div class="login__right-bottom">
+						<p class="login__right-text">
+							You can get everything you want if you work hard, trust the
+							process, and stick to the plan.
+						</p>
+						<div class="login__right-buttons">
+							<div class="login__right-button">
+								<img src="../images/arrow-left.png" alt="Left arrow icon" />
+							</div>
+							<div class="login__right-button">
+								<img src="../images/arrow-right.png" alt="Right arrow icon" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
